@@ -1,5 +1,5 @@
-User story
-As a software quality enthusiast, I want to calculate the Logarithmic Musa model's failures so that I can meet client requirements.
+#User story
+#As a software quality enthusiast, I want to calculate the Logarithmic Musa model's failures so that I can meet client requirements.
 
 Feature: UsingCalculatorLogarithmicModel
 In order to calculate the Logarithmic Musa model's failures/intensities

@@ -1,5 +1,5 @@
-User story
-As a software quality enthusiast, I want to calculate the Shipped Source Instructions(SSI) so that I can meet client requirements. 
+#User story
+#As a software quality enthusiast, I want to calculate the Shipped Source Instructions(SSI) so that I can meet client requirements. 
 
 Feature: UsingCalculatorShippedSourceInstructions
 In order to calculate the Shipped Source Instructions(SSI)

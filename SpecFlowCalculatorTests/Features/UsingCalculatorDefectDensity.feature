@@ -1,5 +1,5 @@
-User story
-As a software quality enthusiast, I want to calculate the defect density so that I can meet client requirements. 
+#User story
+#As a software quality enthusiast, I want to calculate the defect density so that I can meet client requirements. 
 
 Feature: UsingCalculatorDefectDensity
 In order to calculate the defect density
