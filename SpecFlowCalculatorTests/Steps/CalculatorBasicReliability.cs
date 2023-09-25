@@ -16,7 +16,7 @@ public class CalculatorBasicReliabilityStepDefinitions
         _calculator = calculator;
     }
     
-    [When(@"I have entered initial failure intensity (.*), average \(expected\) number of failures - (.*), total number of failures - (.*) into the calculator and press current failure intensity")]
+    [When(@"I have entered initial failure intensity - (.*), average \(expected\) number of failures - (.*), total number of failures - (.*) into the calculator and press current failure intensity")]
     public void WhenIHaveEnteredInitialFailureIntensityAverageExpectedNumberOfFailuresTotalNumberOfFailuresIntoTheCalculatorAndPressCurrentFailureIntensity(double p0, double p1, double p2)
     {
         _result = _calculator.CurrentFailureIntensity(p0, p1, p2);
