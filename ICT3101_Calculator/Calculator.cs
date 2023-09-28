@@ -238,5 +238,38 @@ namespace ICT3101_Calculator
 
             return Math.Round(result, 2);
         }
+        
+        public interface IFileReader {
+            string[] Read(string path);
+        }
+        
+        public class FileReader : IFileReader
+        {
+            public string[] Read(string path)
+            {
+                return File.ReadAllLines(path);
+            }
+        }
+        
+        public double GenMagicNum(double input, IFileReader fileReader)
+        {
+            double result = 0;
+            int choice = Convert.ToInt16(input);
+            
+            //Dependency------------------------------
+            // FileReader getTheMagic = new FileReader();
+            //----------------------------------------
+            
+            // string[] magicStrings = getTheMagic.Read("../../../MagicNumbers.txt");
+            string[] magicStrings = fileReader.Read("../../../MagicNumbers.txt");
+        
+            if ((choice >= 0) && (choice < magicStrings.Length))
+            {
+                result = Convert.ToDouble(magicStrings[choice]);
+            }
+            result = (result > 0) ? (2 * result) : (-2 * result);
+            return result;
+        }
+        
     }
 }
