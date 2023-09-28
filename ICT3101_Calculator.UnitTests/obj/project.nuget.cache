@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "J0So5aZRjKZoqf224r3BewcUU5Z6x9VGCMUpwNjHzqfzdFTxTVxeDkUcNzQW4EKu6npKZ1OxrlZRSxqLCc6xUQ==",
+  "dgSpecHash": "gNcLJl/yk1C4U2p+8JALAVmvM/WK00X7PdrdAEYbFN4pVkr/hJywl26YoOcip2HdzTodxo8TWsqoLQsLAZYmNA==",
   "success": true,
-  "projectFilePath": "/Users/ip/VSProjects/ICT3101_Calculator/ICT3101_Calculator.UnitTests/ICT3101_Calculator.UnitTests.csproj",
+  "projectFilePath": "/Users/ip/Documents/GitHub/ICT3101_Calculator/ICT3101_Calculator.UnitTests/ICT3101_Calculator.UnitTests.csproj",
   "expectedPackageFiles": [
+    "/Users/ip/.nuget/packages/castle.core/5.1.0/castle.core.5.1.0.nupkg.sha512",
     "/Users/ip/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/Users/ip/.nuget/packages/microsoft.codecoverage/17.3.0/microsoft.codecoverage.17.3.0.nupkg.sha512",
     "/Users/ip/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
@@ -12,6 +13,7 @@
     "/Users/ip/.nuget/packages/microsoft.netcore.targets/1.0.1/microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "/Users/ip/.nuget/packages/microsoft.testplatform.objectmodel/17.3.0/microsoft.testplatform.objectmodel.17.3.0.nupkg.sha512",
     "/Users/ip/.nuget/packages/microsoft.testplatform.testhost/17.3.0/microsoft.testplatform.testhost.17.3.0.nupkg.sha512",
+    "/Users/ip/.nuget/packages/moq/4.18.2/moq.4.18.2.nupkg.sha512",
     "/Users/ip/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
     "/Users/ip/.nuget/packages/newtonsoft.json/9.0.1/newtonsoft.json.9.0.1.nupkg.sha512",
     "/Users/ip/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
@@ -20,6 +22,7 @@
     "/Users/ip/.nuget/packages/nunit3testadapter/4.2.1/nunit3testadapter.4.2.1.nupkg.sha512",
     "/Users/ip/.nuget/packages/system.collections/4.0.11/system.collections.4.0.11.nupkg.sha512",
     "/Users/ip/.nuget/packages/system.diagnostics.debug/4.0.11/system.diagnostics.debug.4.0.11.nupkg.sha512",
+    "/Users/ip/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "/Users/ip/.nuget/packages/system.diagnostics.tools/4.0.1/system.diagnostics.tools.4.0.1.nupkg.sha512",
     "/Users/ip/.nuget/packages/system.dynamic.runtime/4.0.11/system.dynamic.runtime.4.0.11.nupkg.sha512",
     "/Users/ip/.nuget/packages/system.globalization/4.0.11/system.globalization.4.0.11.nupkg.sha512",

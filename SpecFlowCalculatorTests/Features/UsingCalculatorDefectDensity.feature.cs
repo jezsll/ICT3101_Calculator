@@ -83,7 +83,7 @@ namespace SpecFlowCalculatorTests.Features
                     "DefectDensity"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculating Defect Density", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 7
+#line 10
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -103,14 +103,14 @@ namespace SpecFlowCalculatorTests.Features
             else
             {
                 this.ScenarioStart();
-#line 8
+#line 11
   testRunner.Given("I have a calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 9
+#line 12
   testRunner.When("I have entered 100 (Number of Defects) and 50 (Size in KLOC) into the calculator " +
                         "and press Defect Density", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 10
+#line 13
   testRunner.Then("the defect density result should be 2.00 Defects/KLOC", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

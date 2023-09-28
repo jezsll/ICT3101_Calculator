@@ -83,7 +83,7 @@ namespace SpecFlowCalculatorTests.Features
                     "BasicReliability"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculating Basic Reliability - Current Failure Intensity", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 7
+#line 10
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -103,15 +103,15 @@ namespace SpecFlowCalculatorTests.Features
             else
             {
                 this.ScenarioStart();
-#line 8
+#line 11
         testRunner.Given("I have a calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 9
+#line 12
         testRunner.When("I have entered initial failure intensity - 10, average (expected) number of failu" +
                         "res - 50, total number of failures - 100 into the calculator and press current f" +
                         "ailure intensity", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 10
+#line 13
         testRunner.Then("the basic reliability result should be 5", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -127,7 +127,7 @@ namespace SpecFlowCalculatorTests.Features
                     "BasicReliability"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculating Basic Reliability - Average number of expected failures", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 13
+#line 16
     this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -147,15 +147,15 @@ namespace SpecFlowCalculatorTests.Features
             else
             {
                 this.ScenarioStart();
-#line 14
+#line 17
         testRunner.Given("I have a calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 15
+#line 18
         testRunner.When("I have entered initial failure intensity - 10, total number of failures - 100, CP" +
                         "U hours - 10,  into the calculator and press average number of expected failures" +
                         "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 16
+#line 19
         testRunner.Then("the basic reliability result should be 63.21", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

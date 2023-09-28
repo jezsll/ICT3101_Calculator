@@ -6409,11 +6409,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ip/VSProjects/ICT3101_Calculator/SpecFlowCalculatorTests/SpecFlowCalculatorTests.csproj",
+      "projectUniqueName": "/Users/ip/Documents/GitHub/ICT3101_Calculator/SpecFlowCalculatorTests/SpecFlowCalculatorTests.csproj",
       "projectName": "SpecFlowCalculatorTests",
-      "projectPath": "/Users/ip/VSProjects/ICT3101_Calculator/SpecFlowCalculatorTests/SpecFlowCalculatorTests.csproj",
+      "projectPath": "/Users/ip/Documents/GitHub/ICT3101_Calculator/SpecFlowCalculatorTests/SpecFlowCalculatorTests.csproj",
       "packagesPath": "/Users/ip/.nuget/packages/",
-      "outputPath": "/Users/ip/VSProjects/ICT3101_Calculator/SpecFlowCalculatorTests/obj/",
+      "outputPath": "/Users/ip/Documents/GitHub/ICT3101_Calculator/SpecFlowCalculatorTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ip/.nuget/NuGet/NuGet.Config"
@@ -6428,8 +6428,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/ip/VSProjects/ICT3101_Calculator/ICT3101_Calculator/ICT3101_Calculator.csproj": {
-              "projectPath": "/Users/ip/VSProjects/ICT3101_Calculator/ICT3101_Calculator/ICT3101_Calculator.csproj"
+            "/Users/ip/Documents/GitHub/ICT3101_Calculator/ICT3101_Calculator/ICT3101_Calculator.csproj": {
+              "projectPath": "/Users/ip/Documents/GitHub/ICT3101_Calculator/ICT3101_Calculator/ICT3101_Calculator.csproj"
             }
           }
         }

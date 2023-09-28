@@ -83,7 +83,7 @@ namespace SpecFlowCalculatorTests.Features
                     "ShippedSourceInstructions"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculating Shipped Source Instructions", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 7
+#line 10
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -103,14 +103,14 @@ namespace SpecFlowCalculatorTests.Features
             else
             {
                 this.ScenarioStart();
-#line 8
+#line 11
   testRunner.Given("I have a calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 9
+#line 12
   testRunner.When("I have entered 50 (Current Release), 40 (Previous Release), 25 (% code changed), " +
                         "10(code deleted) and  into the calculator and press shipped source instructions", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 10
+#line 13
   testRunner.Then("the shipped source instructions result should be 70.00 KLOC (current release)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

@@ -83,7 +83,7 @@ namespace SpecFlowCalculatorTests.Features
                     "BasicReliability"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculating Logarithmic Model Reliability - Current Failure Intensity", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 7
+#line 10
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -103,15 +103,15 @@ namespace SpecFlowCalculatorTests.Features
             else
             {
                 this.ScenarioStart();
-#line 8
+#line 11
   testRunner.Given("I have a calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 9
+#line 12
   testRunner.When("I have entered 10 (initial failure intensity), 0.02 (failure intensity decay para" +
                         "meter) and 50 (expected number of failures at a given time) into the calculator " +
                         "and press current failure intensity", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 10
+#line 13
   testRunner.Then("the logarithmic model reliability result should be 3.68 failures/hour", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -127,7 +127,7 @@ namespace SpecFlowCalculatorTests.Features
                     "BasicReliability"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculating Logarithmic Model Reliability - Average number of expected failures", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 13
+#line 16
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -147,15 +147,15 @@ namespace SpecFlowCalculatorTests.Features
             else
             {
                 this.ScenarioStart();
-#line 14
+#line 17
   testRunner.Given("I have a calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 15
+#line 18
   testRunner.When("I have entered 10 (initial failure intensity), 0.02 (failure intensity decay para" +
                         "meter) and 10 (CPU hours)  into the calculator and press average number of expec" +
                         "ted failures", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 16
+#line 19
   testRunner.Then("the logarithmic model reliability result should be 54.93 failures", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
